@@ -72,9 +72,13 @@ function Divide(input1, input2){
 
   Return the value of the operation.
  */
-
- function operate(x, y, z){
- 	
+special.addEventListener("click", Special);
+ function Special(input1, input2, mathOperation){
+ 	var x = input1;
+ 	var y = input2;
+ 	var mathOperation = (input1 + input2);
+ 	var answer = Multiply(mathOperation, 5);
+ 	final.innerHTML = answer;
  }
  
 
